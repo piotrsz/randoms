@@ -1,0 +1,45 @@
+{
+  "type": "FeatureCollection",
+  "properties": {
+    "timeStamp": "2021-06-09T17:55:47Z",
+    "missionProfile": "Test 1",
+    "mwx": {
+      "type": "Current",
+      "forecast_start": null,
+      "forecast_end": null,
+      "ws": 2.5,
+      "wd": 270.0,
+      "temperature": 22.0,
+      "clouds": 3.0,
+      "ceiling_m": 2128.0
+    }
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [24.695, 60.172]
+      },
+      "properties": {
+        "number_sources": 1,
+        "sources": [
+          {
+            "source_name": "Source 1",
+            "latitude": 60.172,
+            "longitude": 24.695,
+            "releaseHeight": 15,
+            "source_type": "Point",
+            "x_dist": 0,
+            "y_dist": 0,
+            "orientation": 0,
+            "emission_rate": 0,
+            "releaseVelocity": 3,
+            "releaseTemperature": 320,
+            "releaseDiameter": 1.2
+          }
+        ]
+      }
+    }
+  ]
+}
