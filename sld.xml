@@ -1,0 +1,32 @@
+
+<?xml version="1.0" encoding="utf-8"?>
+<sld:StyledLayerDescriptor version="1.1.0" xmlns:sld="http://www.opengis.net/sld" xmlns:ogc="http://www.opengis.net/ogc" xmlns:se="http://www.opengis.net/se" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <sld:NamedLayer>
+        <se:Name>SUiKZP</se:Name>
+        <sld:UserStyle xmlns:sld="http://www.opengis.net/sld">
+            <se:Name xmlns:se="http://www.opengis.net/se">Default</se:Name>
+            <sld:IsDefault xmlns:sld="http://www.opengis.net/sld">1</sld:IsDefault>
+            <se:FeatureTypeStyle xmlns:se="http://www.opengis.net/se">
+                <se:Rule xmlns:se="http://www.opengis.net/se">
+                    <ogc:Filter>
+                        <ogc:PropertyIsEqualTo>
+                            <ogc:PropertyName>B_TERYT</ogc:PropertyName>
+                            <ogc:Literal>2601022</ogc:Literal>
+                        </ogc:PropertyIsEqualTo>
+                    </ogc:Filter>
+                    <se:PolygonSymbolizer xmlns:se="http://www.opengis.net/se">
+                        <se:Fill xmlns:se="http://www.opengis.net/se">
+                            <se:SvgParameter xmlns:se="http://www.opengis.net/se" name="fill">#aaaaaa</se:SvgParameter>
+                            <se:SvgParameter xmlns:se="http://www.opengis.net/se" name="fill-opacity">1</se:SvgParameter>
+                        </se:Fill>
+                        <se:Stroke xmlns:se="http://www.opengis.net/se">
+                            <se:SvgParameter xmlns:se="http://www.opengis.net/se" name="stroke">#FF00FF</se:SvgParameter>
+                            <se:SvgParameter xmlns:se="http://www.opengis.net/se" name="stroke-width">2</se:SvgParameter>
+                            <se:SvgParameter xmlns:se="http://www.opengis.net/se" name="stroke-opacity">0</se:SvgParameter>
+                        </se:Stroke>
+                    </se:PolygonSymbolizer>
+                </se:Rule>
+            </se:FeatureTypeStyle>
+        </sld:UserStyle>
+    </sld:NamedLayer>
+</sld:StyledLayerDescriptor>
